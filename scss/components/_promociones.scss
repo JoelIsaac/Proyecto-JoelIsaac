@@ -1,0 +1,9 @@
+@import '../base/mixin';
+
+.index-0 { 
+    z-index: 1;
+}
+
+.tamaño-imagen {
+    @include imagen (auto, auto); 
+}

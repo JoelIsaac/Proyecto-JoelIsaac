@@ -1,0 +1,16 @@
+@import '../base/listMaps';
+
+body { 
+    background-color: map-get($colors, color4); } 
+
+.h1 {  
+    color: map-get($colors, color6 );
+    text-shadow: #000000 2px 2px 1px;
+    font-size: 2rem;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: none;
+}

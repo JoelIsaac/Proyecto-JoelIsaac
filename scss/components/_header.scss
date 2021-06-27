@@ -1,0 +1,29 @@
+@import '../base/listMaps';
+@import '../base/mixin';
+
+header { 
+    z-index: 10000;
+    width: 100%;
+    background-color: map-get($colors, color1);
+    box-shadow: 0rem 0.0rem 1rem;
+    
+    .navbar { 
+        position: relative;
+        top: 5rem;
+    } 
+    .nav-link { 
+        font-size: map-get($fontSize , fontHeader );
+        font-weight: bold;
+        color: map-get($colors, color2);
+        transition: 0.5s;
+        &:hover { 
+            background-color: map-get($colors, color5);
+        }
+        margin: 1rem
+    }
+    .logoLuiyi { 
+        @include imagen (13rem, auto);
+        border: 0.5rem solid map-get($colors, color1);
+        z-index: 3;
+    }
+}

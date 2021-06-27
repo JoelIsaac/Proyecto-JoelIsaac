@@ -1,0 +1,17 @@
+@import '../base/mixin';
+@import '../base/listMaps';
+@import '../base/extends';
+
+.img-locales { 
+    @include imagen (30rem, 40rem);
+    @extend %borderStyle;
+    margin: 5rem;
+}
+
+.text-direcciones { 
+    font-size: map-get($fontSize, fontAdress );
+    position: relative;
+    left: 5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.178);
+}

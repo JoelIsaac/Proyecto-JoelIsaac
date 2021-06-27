@@ -1,0 +1,30 @@
+@import '../base/listMaps'; 
+@import '../base/extends';
+@import '../base/mixin';
+
+.img-logos-redes { 
+    @include imagen (10rem, auto);
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.info-contacto { 
+    font-size: map-get($fontSize, fontTitles);
+    @extend %flexBox; 
+    top: 5rem;
+    right:36rem;
+    font-weight: bold;
+}
+
+.info-contacto-contacto { 
+    margin-top: 5rem;
+}
+
+.preguntas-margin { 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.input-margin { 
+    margin-bottom: 3rem;
+}

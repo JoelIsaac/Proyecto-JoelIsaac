@@ -1,0 +1,16 @@
+/* EXTENDS */
+
+%flexBox { 
+    display: flex;
+    position: relative;
+}
+
+%footerIcons { 
+    height: 3.8rem;
+    width: auto;
+}
+
+%borderStyle { 
+    border: 0.1rem solid black;
+    box-shadow: black 0rem 0rem 0.4rem;
+}

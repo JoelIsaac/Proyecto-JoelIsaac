@@ -1,0 +1,12 @@
+@import '../base/mixin';
+
+.video-1 { 
+    @include imagen (35rem, auto); 
+    margin-top: 5rem;
+}
+
+.mucho-texto { 
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
