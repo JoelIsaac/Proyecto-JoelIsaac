@@ -3,6 +3,10 @@
 body { 
     background-color: map-get($colors, color4); } 
 
+.body-index { 
+    background-color: black;
+}
+
 .h1 {  
     color: map-get($colors, color6 );
     text-shadow: #000000 2px 2px 1px;
