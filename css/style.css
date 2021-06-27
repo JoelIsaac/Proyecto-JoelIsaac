@@ -111,6 +111,13 @@ footer .derechos {
   font-weight: bold;
   display: flex;
 }
+footer .logo-wpp {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  height: 7rem;
+  width: 7rem;
+}
 
 header {
   z-index: 10000;

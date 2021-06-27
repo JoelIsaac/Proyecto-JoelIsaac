@@ -40,4 +40,10 @@ footer {
         font-weight: bold;
         display: flex; } 
         
+    .logo-wpp { 
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        @include imagen (7rem, 7rem);
+    }
 }
