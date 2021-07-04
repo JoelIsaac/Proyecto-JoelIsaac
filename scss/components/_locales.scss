@@ -10,8 +10,9 @@
 
 .text-direcciones { 
     font-size: map-get($fontSize, fontAdress );
+    color: white;
     position: relative;
     left: 5rem;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.178);
+    background-color: rgba(0, 0, 0, 0.808);
 }
