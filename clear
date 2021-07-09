@@ -1,0 +1,59 @@
+[33mcommit cfce382e1ea24240baef8bfdef8949a9aaa0df35[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Fri Jul 9 14:42:37 2021 -0300
+
+    agregue secciones al menu e imagenes a los distintos tipos de comidas
+
+[33mcommit 529c841abecf1845a49cdc41f69c3b1a6f6d9e20[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jul 4 19:25:01 2021 -0300
+
+    cambie la forma en la que se mostraban los metodos de contacto, y lo coloque en forma de card
+
+[33mcommit ed8a3cee859d6ac81170484cc35d2c72ff61c004[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jul 4 18:55:27 2021 -0300
+
+    arregle un problema que tenia con el carrousel
+
+[33mcommit 71bbde229f0ae0c3eee4d9c65039ab1a580a6a09[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jul 4 18:08:08 2021 -0300
+
+    cambie el background color de la info de la seccion locales, y tambien el color de las letras
+
+[33mcommit ba47fb5c70ab2b0f7089c7357a2a3b127adc3656[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jul 4 18:02:53 2021 -0300
+
+    agregue items para el html de CARTA, me falta agregar las fotos, info y algunos items mas
+
+[33mcommit cfb4e5f20aebc85e049d253f6c66a32526fc5250[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jul 4 16:23:54 2021 -0300
+
+    Edite las fotos de la pagina principal para darle mas forma y color
+
+[33mcommit ffce40c7bac9f9aabb2c8c034e22eab4e6728636[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jun 27 14:40:50 2021 -0300
+
+    añadi un fixed que redirecciona al numero de wpp de la empresa, en la esquina inferior derecha
+
+[33mcommit cdc8417969571815f3a3811ecac61a4df4cb61cb[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jun 27 14:14:30 2021 -0300
+
+    le cambie el background color a el index.html
+
+[33mcommit ef2d5af45c9cc9a6e469587eb267ccc7d90e87ec[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jun 27 13:52:29 2021 -0300
+
+    agregue git ignore a mi proyecto
+
+[33mcommit f6594125a6a9c82bbbac650a4b2f8e6fa86acd10[m
+Author: Joel Isaac <joeldavidisaac@gmail.com>
+Date:   Sun Jun 27 13:08:15 2021 -0300
+
+    agregue git a mi proyecto
