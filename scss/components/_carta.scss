@@ -13,12 +13,19 @@ margin-bottom: 2rem;
 
 .style-text { 
     font-size: 2rem;
-    display: flex;
     align-content: center;
+
 }
 
 .image-center { 
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.max-width { 
+    max-height: 17rem;
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
 }

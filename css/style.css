@@ -392,7 +392,6 @@ footer .img-redes {
 
 .style-text {
   font-size: 2rem;
-  display: flex;
   align-content: center;
 }
 
@@ -400,6 +399,13 @@ footer .img-redes {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.max-width {
+  max-height: 17rem;
+  max-width: 20rem;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
