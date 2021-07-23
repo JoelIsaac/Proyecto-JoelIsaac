@@ -39,7 +39,7 @@ footer .img-redes {
 .img-logos-redes {
   height: 10rem;
   width: auto;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
   margin-top: 2rem;
 }
 
@@ -61,6 +61,33 @@ footer .img-redes {
 
 .input-margin {
   margin-bottom: 3rem;
+}
+
+.center-text {
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.margins {
+  margin-top: 2rem;
+}
+
+.ultra-margin {
+  margin-top: 5rem;
+}
+
+.img-size {
+  width: 15rem;
+}
+
+.img-size-2 {
+  width: 10rem;
+  position: relative;
+  left: 2rem;
+  top: 1rem;
 }
 
 /* EXTENDS */
