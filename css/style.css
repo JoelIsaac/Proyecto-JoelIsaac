@@ -211,6 +211,10 @@ footer .img-redes {
   width: auto;
 }
 
+.margin-top {
+  margin-top: 5rem;
+}
+
 @media screen and (max-width: 576px) {
   .decoration-none {
     font-size: 1rem;
@@ -333,6 +337,18 @@ footer .img-redes {
 
 .h3-carta {
   margin-top: 3rem;
+}
+
+.style-text {
+  font-size: 2rem;
+  display: flex;
+  align-content: center;
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
