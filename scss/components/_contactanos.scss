@@ -30,6 +30,7 @@
 }
 
 .center-text { 
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 2.4rem;
     display: flex;
     justify-content: center;
@@ -69,4 +70,8 @@
 .margins-2 { 
     margin-top: 2rem;  
     margin-bottom: 2rem;
+}
+
+.bolder-txt { 
+    font-weight: bolder;
 }

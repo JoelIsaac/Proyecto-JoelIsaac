@@ -34,12 +34,14 @@ footer {
     }
 
     .text-size { 
+        font-family: 'PT Serif', serif;
         font-size: map-get($fontSize , fontFooter );
         display: flex;
         justify-content: center;
     }
     
     .derechos { 
+        font-family: 'PT Serif', serif;
         display: flex;
         justify-content: center;
         font-weight: bold;

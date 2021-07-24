@@ -9,6 +9,7 @@
 }
 
 .text-direcciones { 
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: map-get($fontSize, fontAdress );
     color: white;
     position: relative;

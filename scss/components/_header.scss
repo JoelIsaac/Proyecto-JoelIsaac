@@ -12,6 +12,7 @@ header {
         top: 5rem;
     } 
     .nav-link { 
+        font-family: 'Otomanopee One', sans-serif;
         font-size: map-get($fontSize , fontHeader );
         font-weight: bold;
         color: map-get($colors, color2);
@@ -25,5 +26,9 @@ header {
         @include imagen (13rem, auto);
         border: 0.5rem solid map-get($colors, color1);
         z-index: 3;
+    }
+
+    .h1 { 
+        font-family: 'Otomanopee One', sans-serif;
     }
 }
