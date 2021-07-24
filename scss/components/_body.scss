@@ -1,7 +1,9 @@
 @import '../base/listMaps';
 
 body { 
-    background-color: map-get($colors, color4); } 
+    background-color: map-get($colors, color4); 
+    overflow-x: hidden;        
+} 
 
 .body-index { 
     background-color: black;
@@ -15,7 +17,6 @@ body {
     display: flex;
     justify-content: center;
     display: flex;
-    justify-content: center;
     margin: none;
     background-color: map-get($colors , color7 );
 }

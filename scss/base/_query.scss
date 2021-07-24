@@ -1,20 +1,79 @@
 @media screen and (max-width:576px) {
 
+    /* index-Style */
+
+    .responsive { 
+        position: relative;
+        left: 1rem;
+    }
+
     .decoration-none { 
         font-size: 1rem;
     }   
 
+    .logo-wpp { 
+        display: none;
+    }
+
     .img-redes { 
-        height: 2rem;
-        width: 2rem;
+        height: 1.5rem;
+        width: 1.5rem;
     }
         
     .text-size { 
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
+
+    /* Carta-Style */
+
+    .h2-carta { 
+        position: relative;
+        left: 9rem;
+    }
+
+    /* Locales-Style */
+
+    .text-direcciones { 
+        max-width: 40rem;
+    }
+
+    .responsive { 
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 10rem;
+    }
+
+    .h2-carta-locales { 
+        position: relative;
+        left: 1rem;
+    }
+
+    /* Promociones-Style */
+
+    /* Contactanos-Style */
+    .img-size-2 { 
+        width: 9rem;
+    }
+
+    .img-size { 
+        width: 14rem;
+    }
+
     }
 
 @media screen and (min-width: 576px) and (max-width:768px) {
+
+    /* index-style */
+
+    .logo-wpp { 
+        display: none;
+    }
+
+    .responsive { 
+        display: flex;
+        justify-content: center;
+    }
 
     .text-size { 
         font-size: 1.3rem;
@@ -28,6 +87,20 @@
 }
 
 @media screen and (min-width: 768px) and (max-width:992px) {
+
+    .logo-wpp { 
+        display: none;
+    }
+
+    .responsive { 
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-locales {
+        width: 50rem;
+        height: auto;
+    }
 
     .text-size { 
         font-size: 1.7rem;

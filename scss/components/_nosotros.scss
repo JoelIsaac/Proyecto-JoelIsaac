@@ -1,15 +1,14 @@
 @import '../base/mixin';
 
 .video-1 { 
-    @include imagen (35rem, auto); 
-    margin-top: 5rem;
+    @include imagen (40rem, auto); 
+    margin-top: 9rem;
 }
 
 .mucho-texto { 
     font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 2rem;
 }
 
 .size-text { 
@@ -18,14 +17,24 @@
 }
 
 .marginn { 
-    margin-top: 2rem;
-    margin-bottom: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
 }
 
 .right-margin {
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
 
 .mx-heigth { 
     max-height: 18rem;
+}
+
+.margin-bot { 
+    margin-bottom: 7rem;
+}
+
+.h2-carta-nosotros {
+    margin-top: 8rem;
+    font-size: 5rem;
+    font-family: 'Otomanopee One', sans-serif;
 }

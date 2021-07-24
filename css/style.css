@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
   background-color: #D7CEC7;
+  overflow-x: hidden;
 }
 
 .body-index {
@@ -15,7 +16,6 @@ body {
   display: flex;
   justify-content: center;
   display: flex;
-  justify-content: center;
   margin: none;
   background-color: rgba(0, 0, 0, 0.486);
 }
@@ -108,6 +108,12 @@ footer .img-redes {
 
 .bolder-txt {
   font-weight: bolder;
+}
+
+.h2-carta-contactanos {
+  margin-top: 8rem;
+  font-size: 5rem;
+  font-family: "Otomanopee One", sans-serif;
 }
 
 /* EXTENDS */
@@ -210,6 +216,7 @@ header .h1 {
 html {
   font-size: 62.5%;
   /* 1rem- 10px */
+  overflow-x: hidden;
 }
 
 /* EXTENDS */
@@ -244,17 +251,22 @@ footer .img-redes {
   background-color: black;
 }
 
+.h2-carta-locales {
+  margin-top: 7rem;
+  font-size: 5rem;
+  font-family: "Otomanopee One", sans-serif;
+}
+
 .video-1 {
-  height: 35rem;
+  height: 40rem;
   width: auto;
-  margin-top: 5rem;
+  margin-top: 9rem;
 }
 
 .mucho-texto {
   font-family: "Barlow Condensed", sans-serif;
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
 }
 
 .size-text {
@@ -263,16 +275,26 @@ footer .img-redes {
 }
 
 .marginn {
-  margin-top: 2rem;
-  margin-bottom: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
 }
 
 .right-margin {
-  margin-right: 2rem;
+  margin-right: 4rem;
 }
 
 .mx-heigth {
   max-height: 18rem;
+}
+
+.margin-bot {
+  margin-bottom: 7rem;
+}
+
+.h2-carta-nosotros {
+  margin-top: 8rem;
+  font-size: 5rem;
+  font-family: "Otomanopee One", sans-serif;
 }
 
 .index-0 {
@@ -298,21 +320,80 @@ footer .img-redes {
   font-family: "Barlow Condensed", sans-serif;
 }
 
+.h2-carta-promociones {
+  margin-top: 7rem;
+  font-size: 5rem;
+  font-family: "Otomanopee One", sans-serif;
+}
+
 @media screen and (max-width: 576px) {
+  /* index-Style */
+  .responsive {
+    position: relative;
+    left: 1rem;
+  }
+
   .decoration-none {
     font-size: 1rem;
   }
 
+  .logo-wpp {
+    display: none;
+  }
+
   .img-redes {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 
   .text-size {
-    font-size: 0.7rem;
+    font-size: 1rem;
+  }
+
+  /* Carta-Style */
+  .h2-carta {
+    position: relative;
+    left: 9rem;
+  }
+
+  /* Locales-Style */
+  .text-direcciones {
+    max-width: 40rem;
+  }
+
+  .responsive {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 10rem;
+  }
+
+  .h2-carta-locales {
+    position: relative;
+    left: 1rem;
+  }
+
+  /* Promociones-Style */
+  /* Contactanos-Style */
+  .img-size-2 {
+    width: 9rem;
+  }
+
+  .img-size {
+    width: 14rem;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  /* index-style */
+  .logo-wpp {
+    display: none;
+  }
+
+  .responsive {
+    display: flex;
+    justify-content: center;
+  }
+
   .text-size {
     font-size: 1.3rem;
   }
@@ -323,6 +404,20 @@ footer .img-redes {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .logo-wpp {
+    display: none;
+  }
+
+  .responsive {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-locales {
+    width: 50rem;
+    height: auto;
+  }
+
   .text-size {
     font-size: 1.7rem;
   }
