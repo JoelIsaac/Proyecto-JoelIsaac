@@ -114,6 +114,8 @@ footer .img-redes {
   margin-top: 8rem;
   font-size: 5rem;
   font-family: "Otomanopee One", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 /* EXTENDS */
@@ -350,6 +352,19 @@ footer .img-redes {
     font-size: 1rem;
   }
 
+  .navbar {
+    position: relative;
+    top: 0rem !important;
+  }
+
+  .h1 {
+    background-color: black;
+    z-index: 1000;
+    font-size: 1.5rem;
+    position: fixed;
+    right: 0rem;
+  }
+
   /* Carta-Style */
   .h2-carta {
     position: relative;
@@ -385,6 +400,19 @@ footer .img-redes {
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   /* index-style */
+  .h1 {
+    background-color: black;
+    z-index: 1000;
+    font-size: 1.5rem;
+    position: fixed;
+    right: 0rem;
+  }
+
+  .navbar {
+    position: relative;
+    top: 0rem !important;
+  }
+
   .logo-wpp {
     display: none;
   }
@@ -404,6 +432,19 @@ footer .img-redes {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .h1 {
+    background-color: black;
+    z-index: 1000;
+    font-size: 1.5rem;
+    position: fixed;
+    right: 0rem;
+  }
+
+  .navbar {
+    position: relative;
+    top: 0rem !important;
+  }
+
   .logo-wpp {
     display: none;
   }
@@ -428,6 +469,12 @@ footer .img-redes {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+  .h1 {
+    z-index: 1000;
+    position: absolute;
+    top: 0rem;
+  }
+
   .text-size {
     font-size: 1rem;
   }
@@ -438,6 +485,12 @@ footer .img-redes {
   }
 }
 @media screen and (min-width: 1200px) {
+  .h1 {
+    z-index: 1000;
+    position: absolute;
+    top: 0rem;
+  }
+
   .text-size {
     font-size: 1.2rem;
   }
