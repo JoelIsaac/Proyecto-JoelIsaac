@@ -190,11 +190,13 @@ header {
   background-color: #C09F80;
   box-shadow: 0rem 0rem 1rem;
 }
-header .navbar {
+
+.navbar {
   position: relative;
   top: 5rem;
 }
-header .nav-link {
+
+.nav-link {
   font-family: "Otomanopee One", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
@@ -202,16 +204,18 @@ header .nav-link {
   transition: 0.5s;
   margin: 1rem;
 }
-header .nav-link:hover {
+.nav-link:hover {
   background-color: #D7CEC7;
 }
-header .logoLuiyi {
+
+.logoLuiyi {
   height: 13rem;
   width: auto;
   border: 0.5rem solid #C09F80;
   z-index: 3;
 }
-header .h1 {
+
+.h1 {
   font-family: "Otomanopee One", sans-serif;
 }
 
@@ -597,5 +601,23 @@ footer .img-redes {
 .negrita {
   font-weight: bolder;
 }
+
+/* EXTENDS */
+.info-contacto {
+  display: flex;
+  position: relative;
+}
+
+footer .img-redes {
+  height: 3.8rem;
+  width: auto;
+}
+
+.img-locales {
+  border: 0.1rem solid black;
+  box-shadow: black 0rem 0rem 0.4rem;
+}
+
+/* ! Paleta de colores del sitio web */
 
 /*# sourceMappingURL=style.css.map */

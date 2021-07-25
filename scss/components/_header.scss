@@ -5,7 +5,7 @@ header {
     z-index: 10000;
     width: 100%;
     background-color: map-get($colors, color1);
-    box-shadow: 0rem 0.0rem 1rem;
+    box-shadow: 0rem 0.0rem 1rem; } 
     
     .navbar { 
         position: relative;
@@ -31,4 +31,3 @@ header {
     .h1 { 
         font-family: 'Otomanopee One', sans-serif;
     }
-}
